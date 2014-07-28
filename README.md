@@ -1,2 +1,2 @@
-PHP Google Analytics Measurement Protocol Library
+A Google Analytics Measurement Protocol PHP Library
 ===========================================================================================
