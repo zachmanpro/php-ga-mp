@@ -23,7 +23,7 @@
 * @category Analytics-Library
 * @package  PHP-GA-MP
 * @author   Zachie du Bruyn <zachie@webunite.co.za>
-* @license  http://www.gnu.org/licenses/lgpl.html GNU LESSER GENERAL PUBLIC LICENSE
+* @license  http://www.gnu.org/licenses/lgpl.html LGPL
 * @link     https://github.com/zachmanpro/php-ga-mp
 */
 
