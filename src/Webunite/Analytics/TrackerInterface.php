@@ -17,17 +17,36 @@
 * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.
 *
 * Google Analytics is a registered trademark of Google Inc.
-* 
-* @version 1
-* @link    https://github.com/zachmanpro/php-ga-mp
 *
-* @author  Zachie du Bruyn <zachie@webunite.co.za>
-* @license http://www.gnu.org/licenses/lgpl.html GNU LESSER GENERAL PUBLIC LICENSE
+* PHP version 5.3.10
+*
+* @category Analytics-Library
+* @package  PHP-GA-MP
+* @author   Zachie du Bruyn <zachie@webunite.co.za>
+* @license  http://www.gnu.org/licenses/lgpl.html GNU LESSER GENERAL PUBLIC LICENSE
+* @link     https://github.com/zachmanpro/php-ga-mp
 */
 
 namespace Webunite\Analytics;
 
+/**
+ * Tracker Interface
+ *
+ * @category   Analytics-Library
+ * @package    PHP-GA-MP
+ * @subpackage Interface
+ * @author     Zachie du Bruyn <zachie@webunite.co.za>
+ * @license    http://www.gnu.org/licenses/lgpl.html GNU LESSER GENERAL PUBLIC LICENSE
+ * @link       https://github.com/zachmanpro/php-ga-mp
+ */
 interface TrackerInterface
 {
+    /**
+     * Track action
+     * 
+     * @param HitTypeInterface $hitType Hit Type
+     * 
+     * @return void
+     */
     public function track(HitTypeInterface $hitType);
 }

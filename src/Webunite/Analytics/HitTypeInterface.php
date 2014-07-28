@@ -17,20 +17,48 @@
 * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.
 *
 * Google Analytics is a registered trademark of Google Inc.
-* 
-* @version 1
-* @link    https://github.com/zachmanpro/php-ga-mp
 *
-* @author  Zachie du Bruyn <zachie@webunite.co.za>
-* @license http://www.gnu.org/licenses/lgpl.html GNU LESSER GENERAL PUBLIC LICENSE
+* PHP version 5.3.10
+*
+* @category Analytics-Library
+* @package  PHP-GA-MP
+* @author   Zachie du Bruyn <zachie@webunite.co.za>
+* @license  http://www.gnu.org/licenses/lgpl.html GNU LESSER GENERAL PUBLIC LICENSE
+* @link     https://github.com/zachmanpro/php-ga-mp
 */
+
 namespace Webunite\Analytics;
 
+/**
+ * Hit Type Interface
+ *
+ * @category   Analytics-Library
+ * @package    PHP-GA-MP
+ * @subpackage Interface
+ * @author     Zachie du Bruyn <zachie@webunite.co.za>
+ * @license    http://www.gnu.org/licenses/lgpl.html GNU LESSER GENERAL PUBLIC LICENSE
+ * @link       https://github.com/zachmanpro/php-ga-mp
+ */
 interface HitTypeInteface
 {
+    /**
+     * Validate Hit Type Object
+     * 
+     * @return bool
+     */
     public function validate();
 
+    /**
+     * Get Hit Type Data
+     * 
+     * @return array
+     */
     public function getData();
 
+    /**
+     * Get a list of Required Fields for Hit Type
+     * 
+     * @return array
+     */
     public function getRequiredFields();
 }
