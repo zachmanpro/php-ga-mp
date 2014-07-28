@@ -1,0 +1,17 @@
+{
+    "name": "webunite/php-ga-mp",
+    "description": "Easy to use PHP library for Google's Measurement Protocol",
+    "authors": [
+        {
+            "name": "Zachie du Bruyn",
+            "email": "zachie@webunite.co.za"
+        }
+    ],
+    "require": {
+        "shuber/curl": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=3.7.28"
+    },
+    "license": "MIT"
+}
